@@ -13,40 +13,6 @@ This repository contains:
 
 ---
 
-## 📂 Project Structure
-
-ai-tutor-platform/
-│
-├── backend/ # FastAPI backend
-│ └── lesson_pipeline/
-│ ├── main.py
-│ ├── models.py
-│ ├── requirements.txt
-│ └── tests/
-│
-├── frontend/ # React frontends
-│ ├── chatbot/ # Student chatbot frontend
-│ │ ├── src/
-│ │ │ ├── components/
-│ │ │ ├── pages/
-│ │ │ └── App.jsx
-│ │ ├── package.json
-│ │ ├── vite.config.js
-│ │ └── .gitignore
-│ │
-│ └── teacher-dashboard/ # Teacher dashboard frontend
-│ ├── src/
-│ ├── package.json
-│ └── .gitignore
-│
-├── netlify/functions/ # Optional Netlify serverless functions
-│
-├── README.md # (this file)
-└── .gitignore
-
-yaml
-Copy code
-
 ---
 
 ## 🛠️ Getting Started
