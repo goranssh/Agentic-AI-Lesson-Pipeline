@@ -1,0 +1,65 @@
+# ===============================
+# PYTHON (FastAPI backend)
+# ===============================
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ===============================
+# NODE / REACT (Frontends)
+# ===============================
+node_modules/
+dist/
+.npm/
+.cache/
+.next/
+out/
+
+# ===============================
+# ENVIRONMENT & CONFIG
+# ===============================
+.env
+.env.*
+*.local
+
+# ===============================
+# LOGS
+# ===============================
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ===============================
+# OS / EDITOR FILES
+# ===============================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ===============================
+# TEST / COVERAGE
+# ===============================
+coverage/
+*.cover
+*.py,cover
+.pytest_cache/
+jest-coverage/
